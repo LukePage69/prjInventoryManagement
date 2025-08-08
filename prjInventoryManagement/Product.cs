@@ -9,12 +9,14 @@ namespace prjInventoryManagement
     // Custom type for Product
     public class Product
     {
+        public int ID { get; set; }
         public string Name { get; set; }
         public int Quantity { get; set; }
         public double Price { get; set; }
 
-        public Product(string name, int quantity, double price)
+        public Product(int Id, string name, int quantity, double price)
         {
+            ID = Id;
             Name = name;
             Quantity = quantity;
             Price = price;
@@ -22,7 +24,7 @@ namespace prjInventoryManagement
 
         public void DisplayInfo()
         {
-            Console.WriteLine($"Product: {Name}, Quantity: {Quantity}, Price: {Price:C}");
+            Console.WriteLine($"ID: {ID}, Product: {Name}, Quantity: {Quantity}, Price: {Price:C}");
         }
     }
 }
