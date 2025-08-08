@@ -10,7 +10,7 @@
             Product orange = new Product(3, "Orange", 7, 7);
             Product mango = new Product(4, "Mango", 2, 8);
 
-            // creating a list of products
+            // creating a list of products 
             List<Product> products = new List<Product> { 
                 new Product(1, "Apple", 10, 5),
                 new Product(2, "Banana", 20, 6),
@@ -28,7 +28,7 @@
                 Console.WriteLine($"{product.Name} - Quantity: {product.Quantity}");
             }
 
-            // Anonymous type with LINQ
+            // Anonymous type with LINQ 
             var namePriceList = products.Select(p => new { p.Name, p.Price });
             Console.WriteLine("\nProduct Name & Price:");
             foreach (var item in namePriceList)
@@ -43,7 +43,7 @@
             };
             Console.WriteLine($"Summary: {summary.Name} - Price: {summary.Price:C}, Stock Value: {summary.stockValue:C}");
 
-            // pointer type
+            // pointer type (BillWagner, 2025)
             unsafe
             {
                 int quantity = banana.Quantity;
@@ -63,3 +63,6 @@
         }
     }
 }
+/*References:
+ BillWagner (2025). Unsafe code, pointers to data, and function pointers. [online] learn.microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/unsafe-code.>. Last Accessed 08 August 2025.
+*/

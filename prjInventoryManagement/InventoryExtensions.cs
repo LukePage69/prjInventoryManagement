@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace prjInventoryManagement
 {
     // Extention methods for Inventory management
-    public static class InventoryExtensions
+    public static class InventoryExtensions //(BillWagner, 2025)
     {
         // calculate value
         public static double CalculateTotalValue(this List<Product> products)
@@ -22,3 +22,7 @@ namespace prjInventoryManagement
         }
     }
 }
+/*
+ References:
+BillWagner (2025). Extension Methods - C# Programming Guide. [online] learn.microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods>. Last Accessed 08 August 2025.
+*/
