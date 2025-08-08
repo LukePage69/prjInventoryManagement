@@ -41,7 +41,7 @@
                 products[0].Price,
                 stockValue = products[0].Quantity * products[0].Price
             };
-            Console.WriteLine($"Summary: {summary.Name} - Price: {summary.Price:C}, Stock Value: R{summary.stockValue}");
+            Console.WriteLine($"Summary: {summary.Name} - Price: {summary.Price:C}, Stock Value: {summary.stockValue:C}");
 
             // pointer type
             unsafe
