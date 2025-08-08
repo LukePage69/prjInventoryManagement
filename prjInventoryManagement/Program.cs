@@ -64,5 +64,5 @@
     }
 }
 /*References:
- BillWagner (2025). Unsafe code, pointers to data, and function pointers. [online] learn.microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/unsafe-code.>. Last Accessed 08 August 2025.
+ BillWagner (2025). Unsafe code, pointers to data, and function pointers. [online] learn.microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/unsafe-code.>. [Last Accessed 08 August 2025].
 */

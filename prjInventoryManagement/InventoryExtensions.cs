@@ -24,5 +24,5 @@ namespace prjInventoryManagement
 }
 /*
  References:
-BillWagner (2025). Extension Methods - C# Programming Guide. [online] learn.microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods>. Last Accessed 08 August 2025.
+BillWagner (2025). Extension Methods - C# Programming Guide. [online] learn.microsoft.com. Available at: <https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods>. [Last Accessed 08 August 2025].
 */
